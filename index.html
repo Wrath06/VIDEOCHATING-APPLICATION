@@ -6,11 +6,15 @@
     <title>WebRTC Video Chat</title>
 </head>
 <body>
+    <label for="roomName">Enter Room Name:</label>
+    <input type="text" id="roomName">
+    <button id="startButton">Start Video Chat</button>
+    <button id="stopButton" disabled>Stop Video Chat</button>
     <video id="localVideo" autoplay muted></video>
     <video id="remoteVideo" autoplay></video>
-    <button id="startButton">Start Video Chat</button>
-    <button id="stopButton">Stop Video Chat</button>
 
+    
     <script src="main.js"></script>
 </body>
 </html>
+
